@@ -35,7 +35,9 @@
       > Client/Serve - This pattern consists of two parties; a server and multiple clients. The server component will provide services to multiple client components. Clients request services from the server and the server provides relevant services to those clients. Furthermore, the server continues to listen to client requests.
       > Peer-to-Peer - In this pattern, individual components are known as peers. Peers may function both as a client, requesting services from other peers, and as a server, providing services to other peers. A peer may act as a client or as a server or as both, and it can change its role dynamically with time.
       > Monolithic - In software engineering, a monolithic application describes a single-tiered software application in which the user interface and data access code are combined into a single program from a single platform.
-      >
+      > Microservices  - is a distributed architecture, meaning that all the components within the architecture are fully decoupled from one other and accessed through some sort of remote access protocol (e.g., JMS, AMQP, REST, SOAP, RMI, etc.). The distributed nature of this architecture pattern is how it achieves some of its superior scalability and deployment characteristics.
+      > Rest - REST, or REpresentational State Transfer, is an architectural style for providing standards between computer systems on the web, making it easier for systems to communicate with each other. REST-compliant systems, often called RESTful systems, are characterized by how they are stateless and separate the concerns of client and server. We will go into what these terms mean and why they are beneficial characteristics for services on the Web.
+
 
 
 
@@ -52,5 +54,6 @@
 * https://www.tutorialspoint.com/software_architecture_design/introduction.htm
 * https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013
 * https://en.wikipedia.org/wiki/Monolithic_application#:~:text=In%20software%20engineering%2C%20a%20monolithic,independent%20from%20other%20computing%20applications.
-* 
+* https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html#:~:text=Basic%20Microservices%20architecture%20pattern&text=The%20microservices%20architecture%20pattern%20addresses,independent%20of%20other%20service%20components.
+* https://www.codecademy.com/articles/what-is-rest
 
