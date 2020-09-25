@@ -26,12 +26,12 @@
 
 
 #### Software Architecture 
->
+> Architecture serves as a blueprint for a system. It provides an abstraction to manage the system complexity and establish a communication and coordination mechanism among components. It defines a structured solution to meet all the technical and operational requirements, while optimizing the common quality attributes like performance and security.
 
 
 
 #### Software Architecture Pattern
->
+> An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context. Architectural patterns are similar to software design pattern but have a broader scope.
 
 
 
@@ -48,4 +48,6 @@
 * https://www.redhat.com/en/topics/automation/what-is-configuration-management
 * https://www.citrix.com/glossary/what-is-containerization.html
 * https://www.vmware.com/topics/glossary/content/cloud-scalability
+* https://www.tutorialspoint.com/software_architecture_design/introduction.htm
+* https://towardsdatascience.com/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013
 
