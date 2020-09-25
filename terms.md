@@ -1,6 +1,6 @@
 # TERMS TO KNOW 
 
-devops concepts - name of repo and send the github linkk to them - 
+
 
 ## Cloud Scalability, and Reliability
 
@@ -24,8 +24,3 @@ devops concepts - name of repo and send the github linkk to them -
 
 
 
-Software Architecture / Software Architecture Patterns
-
-refernces: 
-
-https://en.wikipedia.org/wiki/Test-driven_development
