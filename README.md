@@ -45,6 +45,13 @@
 
 
 
+#### CICD PIPE LINE 
+##### Continous Integration (CI)
+> Developers push code to a code repo such as gihub / bit bucket often. a soon a code is pushed a testing(BUILD SERVER) server such as, jenkins CI, checkks the code. this pipline is setup likes this so that the developers can get constant feedback on paased or failed tests. this allows us to find bugs early and fix them. This also allows us the have faster delivery and deploy often.
+
+
+
+
 
 
 
@@ -61,4 +68,4 @@
 * https://en.wikipedia.org/wiki/Monolithic_application#:~:text=In%20software%20engineering%2C%20a%20monolithic,independent%20from%20other%20computing%20applications.
 * https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html#:~:text=Basic%20Microservices%20architecture%20pattern&text=The%20microservices%20architecture%20pattern%20addresses,independent%20of%20other%20service%20components.
 * https://www.codecademy.com/articles/what-is-rest
-
+* https://www.youtube.com/watch?v=N9KbmHhesmE&feature=youtu.be
