@@ -49,6 +49,12 @@
 ##### Continous Integration (CI)
 > Developers push code to a code repo such as gihub / bit bucket often. a soon a code is pushed a testing(BUILD SERVER) server such as, jenkins CI, checkks the code. this pipline is setup likes this so that the developers can get constant feedback on paased or failed tests. this allows us to find bugs early and fix them. This also allows us the have faster delivery and deploy often.
 
+##### Continous Delivery (CD)
+> This allows us to ensure that software can be released realiably and often. this proccess allows developers to realse software multiple times every day rather than having a software release every 3 or 4 months apart. usually this proccess is fully automated
+
+### Technology stack for CICD 
+> Code is pushed to a repo - Build server - testing of code - code is deployed - provisioning  || everythong is managed by aws codepipeline
+
 
 
 
