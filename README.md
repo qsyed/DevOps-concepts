@@ -60,8 +60,15 @@
 
 
 
+#### Configuration Management
+> Configuration management is a process for maintaining computer systems, servers, and software in a desired, consistent state. It’s a way to make sure that a system performs as it’s expected to as changes are made over time. 
+
+> Managing IT system configurations involves defining a system's desired state—like server configuration—then building and maintaining those systems. Closely related to configuration assessments and drift analyses, configuration management uses both to identify systems to update, reconfigure, or patch.
 
 
+
+#### Why manage configurations?
+> Configuration management keeps you from making small or large changes that go undocumented. These misconfigurations can lead to poor performance, inconsistencies, or noncompliance and negatively impact business operations and security. When undocumented changes are made across many systems and applications, it adds to instability and downtime.
 
 
 
@@ -78,3 +85,4 @@
 * https://www.oreilly.com/library/view/software-architecture-patterns/9781491971437/ch04.html#:~:text=Basic%20Microservices%20architecture%20pattern&text=The%20microservices%20architecture%20pattern%20addresses,independent%20of%20other%20service%20components.
 * https://www.codecademy.com/articles/what-is-rest
 * https://www.youtube.com/watch?v=N9KbmHhesmE&feature=youtu.be
+* https://www.redhat.com/en/topics/automation/what-is-configuration-management#:~:text=Configuration%20management%20is%20a%20process,changes%20are%20made%20over%20time.
