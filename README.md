@@ -73,9 +73,16 @@
 > Configuration management keeps you from making small or large changes that go undocumented. These misconfigurations can lead to poor performance, inconsistencies, or noncompliance and negatively impact business operations and security. When undocumented changes are made across many systems and applications, it adds to instability and downtime.  
 
 ### What tools are used to configure systems?
-    * Anisble
+    * Ansible
     * Cloudformation
     * Terraform 
+
+### Ansible 
+> Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs. 
+
+> Ansible models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time. It's easy to deploy - and most importantly, it uses a very simple language (YAML, in the form of Ansible Playbooks) that allow you to describe your automation jobs in a way that approaches plain English.
+
+
 
 
 
@@ -94,3 +101,4 @@
 * https://www.codecademy.com/articles/what-is-rest
 * https://www.youtube.com/watch?v=N9KbmHhesmE&feature=youtu.be
 * https://www.redhat.com/en/topics/automation/what-is-configuration-management#:~:text=Configuration%20management%20is%20a%20process,changes%20are%20made%20over%20time.
+* https://www.ansible.com/overview/how-ansible-works
