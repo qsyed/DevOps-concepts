@@ -88,7 +88,16 @@
 > Ansible works by connecting to nodes (clients, servers, or whatever you're configuring) on a network, and then sending a small program called an Ansible module to that node. Ansible executes these modules over SSH and removes them when finished. The only requirement for this interaction is that your Ansible control node has login access to the managed nodes. SSH keys are the most common way to provide access, but other forms of authentication are also supported. 
 
 
+### Cloudformation
+> AWS CloudFormation is a service that helps you model and set up your Amazon Web Services resources so that you can spend less time managing those resources and more time focusing on your applications that run in AWS. You create a template that describes all the AWS resources that you want (like Amazon EC2 instances or Amazon RDS DB instances), and AWS CloudFormation takes care of provisioning and configuring those resources for you. You don't need to individually create and configure AWS resources and figure out what's dependent on what; AWS CloudFormation handles all of that. The following scenarios demonstrate how AWS CloudFormation can help.
 
+ ### Why do Developers use Cloudformation ?
+ > Developers can deploy and update compute, database, and many other resources in a simple, declarative style that abstracts away the complexity of specific resource APIs. AWS CloudFormation is designed to allow resource lifecycles to be managed repeatably, predictablp, and safely, while allowing for automatic rollbacks, automated state management, and management of resources across accounts and regions.
+
+## How Does AWS CloudFormation work ?
+> When you create a stack, AWS CloudFormation makes underlying service calls to AWS to provision and configure your resources. Note that AWS CloudFormation can perform only actions that you have permission to do. For example, to create EC2 instances by using AWS CloudFormation, you need permissions to create instances. You'll need similar permissions to terminate instances when you delete stacks with instances. You use AWS Identity and Access Management (IAM) to manage permissions.
+
+> The calls that AWS CloudFormation makes are all declared by your template. For example, suppose you have a template that describes an EC2 instance with a t1.micro instance type. When you use that template to create a stack, AWS CloudFormation calls the Amazon EC2 create instance API and specifies the instance type as t1.micro. The following diagram summarizes the AWS CloudFormation workflow for creating stacks.
 
 
 
@@ -108,3 +117,7 @@
 * https://www.redhat.com/en/topics/automation/what-is-configuration-management#:~:text=Configuration%20management%20is%20a%20process,changes%20are%20made%20over%20time.
 * https://www.ansible.com/overview/how-ansible-works
 * https://opensource.com/resources/what-ansible
+* https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+
+* https://aws.amazon.com/cloudformation/faqs/#:~:text=AWS%20CloudFormation%20is%20a%20service,an%20orderly%20and%20predictable%20fashion.
+* https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html
