@@ -129,4 +129,4 @@
 * https://aws.amazon.com/cloudformation/faqs/#:~:text=AWS%20CloudFormation%20is%20a%20service,an%20orderly%20and%20predictable%20fashion.
 * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html
 * https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/#:~:text=Terraform%20by%20HashiCorp%2C%20an%20AWS,Web%20Services%20(AWS)%20infrastructure.
-* 
+* https://www.terraform.io/intro/index.html
