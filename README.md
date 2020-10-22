@@ -94,11 +94,19 @@
  ### Why do Developers use Cloudformation ?
  > Developers can deploy and update compute, database, and many other resources in a simple, declarative style that abstracts away the complexity of specific resource APIs. AWS CloudFormation is designed to allow resource lifecycles to be managed repeatably, predictablp, and safely, while allowing for automatic rollbacks, automated state management, and management of resources across accounts and regions.
 
-## How Does AWS CloudFormation work ?
+### How Does AWS CloudFormation work ?
 > When you create a stack, AWS CloudFormation makes underlying service calls to AWS to provision and configure your resources. Note that AWS CloudFormation can perform only actions that you have permission to do. For example, to create EC2 instances by using AWS CloudFormation, you need permissions to create instances. You'll need similar permissions to terminate instances when you delete stacks with instances. You use AWS Identity and Access Management (IAM) to manage permissions.
 
 > The calls that AWS CloudFormation makes are all declared by your template. For example, suppose you have a template that describes an EC2 instance with a t1.micro instance type. When you use that template to create a stack, AWS CloudFormation calls the Amazon EC2 create instance API and specifies the instance type as t1.micro. The following diagram summarizes the AWS CloudFormation workflow for creating stacks.
 
+
+### Terraform
+> Terraform by HashiCorp, an AWS Partner Network (APN) Advanced Technology Partner and member of the AWS DevOps Competency, is an “infrastructure as code” tool similar to AWS CloudFormation that allows you to create, update, and version your Amazon Web Services (AWS) infrastructure 
+
+### How does Terraform work ?
+> Configuration files describe to Terraform the components needed to run a single application or your entire datacenter. Terraform generates an execution plan describing what it will do to reach the desired state, and then executes it to build the described infrastructure. As the configuration changes, Terraform is able to determine what changed and create incremental execution plans which can be applied.
+
+>The infrastructure Terraform can manage includes low-level components such as compute instances, storage, and networking, as well as high-level components such as DNS entries, SaaS features, etc.
 
 
 # References 
@@ -118,6 +126,7 @@
 * https://www.ansible.com/overview/how-ansible-works
 * https://opensource.com/resources/what-ansible
 * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
-
 * https://aws.amazon.com/cloudformation/faqs/#:~:text=AWS%20CloudFormation%20is%20a%20service,an%20orderly%20and%20predictable%20fashion.
 * https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-whatis-howdoesitwork.html
+* https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/#:~:text=Terraform%20by%20HashiCorp%2C%20an%20AWS,Web%20Services%20(AWS)%20infrastructure.
+* 
