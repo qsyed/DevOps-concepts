@@ -82,6 +82,11 @@
 
 > Ansible models your IT infrastructure by describing how all of your systems inter-relate, rather than just managing one system at a time. It's easy to deploy - and most importantly, it uses a very simple language (YAML, in the form of Ansible Playbooks) that allow you to describe your automation jobs in a way that approaches plain English.
 
+### How does Ansible work? 
+> In Ansible, there are two categories of computers: the control node and managed nodes. The control node is a computer that runs Ansible. There must be at least one control node, although a backup control node may also exist. A managed node is any device being managed by the control node. 
+
+> Ansible works by connecting to nodes (clients, servers, or whatever you're configuring) on a network, and then sending a small program called an Ansible module to that node. Ansible executes these modules over SSH and removes them when finished. The only requirement for this interaction is that your Ansible control node has login access to the managed nodes. SSH keys are the most common way to provide access, but other forms of authentication are also supported. 
+
 
 
 
@@ -102,3 +107,4 @@
 * https://www.youtube.com/watch?v=N9KbmHhesmE&feature=youtu.be
 * https://www.redhat.com/en/topics/automation/what-is-configuration-management#:~:text=Configuration%20management%20is%20a%20process,changes%20are%20made%20over%20time.
 * https://www.ansible.com/overview/how-ansible-works
+* https://opensource.com/resources/what-ansible
